@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 16, 2026 at 10:41 AM
+-- Generation Time: Apr 19, 2026 at 09:00 PM
 -- Server version: 10.4.32-MariaDB
--- PHP Version: 8.2.12
+-- PHP Version: 8.0.30
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -38,57 +38,56 @@ CREATE TABLE `roles` (
 --
 
 INSERT INTO `roles` (`id`, `name`, `created_at`) VALUES
-(24, 'Approver', '2026-03-09 23:05:22'),
-(25, 'Primary Setup', '2026-03-09 23:05:22'),
-(26, 'Secondary Setup', '2026-03-09 23:05:22'),
-(27, 'Accounting Supervisor', '2026-03-09 23:05:22'),
-(28, 'Administrator', '2026-03-09 23:05:22'),
-(29, 'Department Head', '2026-03-09 23:05:22'),
-(30, 'Employee Requester', '2026-03-09 23:05:22'),
-(31, 'Finance Director', '2026-03-09 23:05:22'),
-(32, 'Human Resources Admin', '2026-03-09 23:05:22'),
-(33, 'Payroll Admin', '2026-03-09 23:05:22'),
-(34, 'SC Access', '2026-03-09 23:05:22'),
-(35, 'SIC Access', '2026-03-09 23:05:22'),
-(36, 'TL Access', '2026-03-09 23:05:22'),
-(37, 'Checker', '2026-03-09 23:05:22'),
-(38, 'HR Admin', '2026-03-09 23:05:22'),
-(39, 'Requester', '2026-03-09 23:05:22'),
-(40, 'Viewer', '2026-03-09 23:05:22'),
-(41, 'HR Administrator', '2026-03-09 23:05:22'),
-(42, 'HR Staff', '2026-03-09 23:05:22'),
-(43, 'Payroll Administrator', '2026-03-09 23:05:22'),
-(44, 'Program Head', '2026-03-09 23:05:22'),
-(45, 'Second in Command', '2026-03-09 23:05:22'),
-(46, 'Security Officer', '2026-03-09 23:05:22'),
-(47, 'Head Admin', '2026-03-09 23:05:22'),
-(48, 'Accountant', '2026-03-09 23:05:22'),
-(49, 'Employee', '2026-03-09 23:05:22'),
-(50, 'Records', '2026-03-09 23:05:22'),
-(51, 'Recruitment', '2026-03-09 23:05:22'),
-(52, 'Credit Card Processor', '2026-03-09 23:05:22'),
-(53, 'MIS Importation', '2026-03-09 23:05:22'),
-(54, 'PI Auditor', '2026-03-09 23:05:22'),
-(55, 'PI Checker', '2026-03-09 23:05:22'),
-(56, 'PI Creator', '2026-03-09 23:05:22'),
-(57, 'Sales Director', '2026-03-09 23:05:22'),
-(58, 'Accountable Asset Server', '2026-03-09 23:05:22'),
-(59, 'Audit Admin', '2026-03-09 23:05:22'),
-(60, 'Finance Admin', '2026-03-09 23:05:22'),
-(61, 'Purchaser', '2026-03-09 23:05:22'),
-(62, 'System Admin', '2026-03-09 23:05:22'),
-(63, 'Academic Head', '2026-03-09 23:05:22'),
-(64, 'Faculty Class Schedule Admin', '2026-03-09 23:05:22'),
-(65, 'Instructor', '2026-03-09 23:05:22'),
-(66, 'Lab Monitoring', '2026-03-09 23:05:22'),
-(67, 'Locker Monitoring', '2026-03-09 23:05:22'),
-(68, 'School President', '2026-03-09 23:05:22'),
-(69, 'Timesheet Tardiness Monitoring', '2026-03-09 23:05:22'),
-(70, 'Outlet', '2026-03-09 23:05:22'),
-(71, 'EC Access', '2026-03-09 23:05:22'),
-(72, 'Finance Access', '2026-03-09 23:05:22'),
-(73, 'Marketing Admin', '2026-03-09 23:05:22'),
-(103, '1 TEST ro', '2026-04-16 02:40:54');
+(1, 'Academic Head', '2026-04-18 14:24:53'),
+(2, 'Accountable Asset Server', '2026-04-18 14:24:53'),
+(3, 'Accountant', '2026-04-18 14:24:53'),
+(4, 'Accounting Supervisor', '2026-04-18 14:24:53'),
+(5, 'Administrator', '2026-04-18 14:24:53'),
+(6, 'Approver', '2026-04-18 14:24:53'),
+(7, 'Audit Admin', '2026-04-18 14:24:53'),
+(8, 'Checker', '2026-04-18 14:24:53'),
+(9, 'Credit Card Processor', '2026-04-18 14:24:53'),
+(10, 'Department Head', '2026-04-18 14:24:53'),
+(11, 'EC Access', '2026-04-18 14:24:53'),
+(12, 'Employee', '2026-04-18 14:24:53'),
+(13, 'Employee Requester', '2026-04-18 14:24:53'),
+(14, 'Faculty Class Schedule Admin', '2026-04-18 14:24:53'),
+(15, 'Finance Access', '2026-04-18 14:24:53'),
+(16, 'Finance Admin', '2026-04-18 14:24:53'),
+(17, 'Finance Director', '2026-04-18 14:24:53'),
+(18, 'HR Admin', '2026-04-18 14:24:53'),
+(19, 'HR Administrator', '2026-04-18 14:24:53'),
+(20, 'HR Staff', '2026-04-18 14:24:53'),
+(21, 'Head Admin', '2026-04-18 14:24:53'),
+(22, 'Human Resources Admin', '2026-04-18 14:24:53'),
+(23, 'Instructor', '2026-04-18 14:24:53'),
+(24, 'Lab Monitoring', '2026-04-18 14:24:53'),
+(25, 'Locker Monitoring', '2026-04-18 14:24:53'),
+(26, 'MIS Importation', '2026-04-18 14:24:53'),
+(27, 'Marketing Admin', '2026-04-18 14:24:53'),
+(28, 'Outlet', '2026-04-18 14:24:53'),
+(29, 'PI Auditor', '2026-04-18 14:24:53'),
+(30, 'PI Checker', '2026-04-18 14:24:53'),
+(31, 'PI Creator', '2026-04-18 14:24:53'),
+(32, 'Payroll Admin', '2026-04-18 14:24:53'),
+(33, 'Payroll Administrator', '2026-04-18 14:24:53'),
+(34, 'Primary Setup', '2026-04-18 14:24:53'),
+(35, 'Program Head', '2026-04-18 14:24:53'),
+(36, 'Purchaser', '2026-04-18 14:24:53'),
+(37, 'Records', '2026-04-18 14:24:53'),
+(38, 'Recruitment', '2026-04-18 14:24:53'),
+(39, 'Requester', '2026-04-18 14:24:53'),
+(40, 'SC Access', '2026-04-18 14:24:53'),
+(41, 'SIC Access', '2026-04-18 14:24:53'),
+(42, 'Sales Director', '2026-04-18 14:24:53'),
+(43, 'School President', '2026-04-18 14:24:53'),
+(44, 'Second in Command', '2026-04-18 14:24:53'),
+(45, 'Secondary Setup', '2026-04-18 14:24:53'),
+(46, 'Security Officer', '2026-04-18 14:24:53'),
+(47, 'System Admin', '2026-04-18 14:24:53'),
+(48, 'TL Access', '2026-04-18 14:24:53'),
+(49, 'Timesheet Tardiness Monitoring', '2026-04-18 14:24:53'),
+(50, 'Viewer', '2026-04-18 14:24:53');
 
 --
 -- Indexes for dumped tables
@@ -109,7 +108,7 @@ ALTER TABLE `roles`
 -- AUTO_INCREMENT for table `roles`
 --
 ALTER TABLE `roles`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=104;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=51;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

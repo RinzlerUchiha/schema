@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 16, 2026 at 10:41 AM
+-- Generation Time: Apr 19, 2026 at 09:00 PM
 -- Server version: 10.4.32-MariaDB
--- PHP Version: 8.2.12
+-- PHP Version: 8.0.30
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -38,20 +38,20 @@ CREATE TABLE `systems` (
 --
 
 INSERT INTO `systems` (`id`, `name`, `created_at`) VALUES
-(10, 'HRIS SYSTEM', '2026-02-13 09:52:18'),
-(11, 'Annual Budget System', '2026-03-04 02:40:09'),
-(12, 'Authority To Deduct', '2026-03-04 02:40:09'),
-(13, 'Client Assistance Program', '2026-03-04 02:40:09'),
-(14, 'Employee Clearance Form', '2026-03-04 02:40:09'),
-(15, 'Electronic Daily Time Record System', '2026-03-04 02:40:09'),
-(16, 'Finance Information System', '2026-03-04 02:40:09'),
-(17, 'Financial Statements', '2026-03-04 02:40:09'),
-(18, 'Productivity Incentive', '2026-03-04 02:40:09'),
-(19, 'Requisition and Purchasing System', '2026-03-04 02:40:09'),
-(20, 'Students Information Systems', '2026-03-04 02:40:09'),
-(21, 'SJI Information System', '2026-03-04 02:40:09'),
-(22, 'Sophia Events', '2026-03-04 02:40:09'),
-(23, 'Voucher Monitoring System', '2026-03-04 02:40:09');
+(1, 'ABS', '2026-04-18 14:24:53'),
+(2, 'ATD', '2026-04-18 14:24:53'),
+(3, 'CAP', '2026-04-18 14:24:53'),
+(4, 'ECF', '2026-04-18 14:24:53'),
+(5, 'FIS', '2026-04-18 14:24:53'),
+(6, 'FS', '2026-04-18 14:24:53'),
+(7, 'HRIS', '2026-04-18 14:24:53'),
+(8, 'PI', '2026-04-18 14:24:53'),
+(9, 'RPS', '2026-04-18 14:24:53'),
+(10, 'SIS', '2026-04-18 14:24:53'),
+(11, 'SJIIS', '2026-04-18 14:24:53'),
+(12, 'SophiaEvents', '2026-04-18 14:24:53'),
+(13, 'VMS', '2026-04-18 14:24:53'),
+(14, 'eDTR', '2026-04-18 14:24:53');
 
 --
 -- Indexes for dumped tables
@@ -71,7 +71,7 @@ ALTER TABLE `systems`
 -- AUTO_INCREMENT for table `systems`
 --
 ALTER TABLE `systems`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=72;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
